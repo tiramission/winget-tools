@@ -21,6 +21,7 @@ foreach ($g in $groups) {
         [PSCustomObject]@{
             Name              = $_.Name
             Version           = $_.Version
+            SourceId          = $_.SourceId
             Publisher         = $_.Publisher
             PackageFamilyName = $_.PackageFamilyName
             InstalledLocation = $_.InstalledLocation
